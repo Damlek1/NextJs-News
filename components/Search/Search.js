@@ -10,7 +10,7 @@ const Search = ({loading, setLoading, setResults, setHasSearched}) => {
         setLoading(true)
         setHasSearched(true)
         try{
-            const resultSet = await axios.get('/pages/api/', {
+            const resultSet = await axios.get('/api/search', {
                 params: {
                     term,
                 }

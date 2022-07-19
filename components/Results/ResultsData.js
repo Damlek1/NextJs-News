@@ -1,10 +1,10 @@
 import React from 'react'
-import Section from './Sections'
+import Sections from './Sections'
 
 const ResultsData = ({results}) => {
   return (
     <ul className='flex flex-col gap-4'>
-      <Section results={results} />
+      <Sections results={results} />
     </ul>
   )
 }
