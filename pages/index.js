@@ -10,7 +10,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false)
   const [hasSearched, setHasSearched] = useState(false)
   return (
-    <div className='min-h-screen flex justify-center items-center bg-blue-100'>
+    <div className='md:flex flex-wrap w-screen text-lg min-h-screen flex justify-center items-center bg-blue-100'>
       <Head>
         <title>World News</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
